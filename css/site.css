@@ -1,0 +1,54 @@
+.address{
+    font-size: .8rem;
+}
+
+@media only screen and (min-width: 768px){
+    .address{
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    .address{
+        font-size: 1rem;
+    }
+}
+
+img {
+    width: 15rem;
+    height: 15rem;
+}
+
+table {
+    width: 80%;
+    margin-top: 2rem;
+   
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+
+.pTop{
+    margin: 0;
+}
+
+p{
+    text-align: left
+}
+
+.printButton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
